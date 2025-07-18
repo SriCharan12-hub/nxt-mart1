@@ -53,7 +53,7 @@ function Cart() {
         <div className='Home-Nav1'>
           <h2 className='Home-1' onClick={() => navigate('/home')}>Home</h2>
           <h2 className='Home-1' onClick={() => navigate('/cart')}>Cart</h2>
-          <svg xmlns="http://www.w3.org/2000/svg" onClick={() => navigate('/')} width="50" height="50" viewBox="0 0 24 24" stroke="#fff" strokeWidth="2">
+          <svg xmlns="http://www.w3.org/2000/svg" onClick={() => navigate('/')} width="50"  style={{ cursor: "pointer" }} height="50" viewBox="0 0 24 24" stroke="#fff" strokeWidth="2">
             <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a2 2 0 01-2 2H7a2 2 0 01-2-2V7a2 2 0 012-2h4a2 2 0 012 2v1" />
           </svg>
         </div>
